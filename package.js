@@ -7,4 +7,4 @@ Package.on_use(function(api) {
   if (typeof api.export !== 'undefined') { api.export('Mysql', 'server'); }
 });
 
-Npm.depends({ 'mysql': '2.1.0' });
+Npm.depends({ 'mysql': '2.2.0' });
